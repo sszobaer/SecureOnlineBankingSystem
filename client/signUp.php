@@ -11,7 +11,7 @@
     <div class="signupContainer">
         <div class="signUpMain">
             <h2>Sign Up</h2>
-            <form action="" method="post">  
+            <form action="requests.php" method="post">  
                 <div class="formGroup">
                     <label for="firstName">First Name:</label>
                     <input type="text" id="firstName" name="firstName" required>  
@@ -19,10 +19,6 @@
                 <div class="formGroup">
                     <label for="lastName">Last Name:</label>
                     <input type="text" id="lastName" name="lastName" required>  
-                </div>
-                <div class="formGroup">
-                    <label for="studentId">ID:</label>
-                    <input type="number" id="Id" name="Id" required>  
                 </div>
                 <div class="formGroup">
                     <label for="email">Email:</label>

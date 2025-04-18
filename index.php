@@ -11,7 +11,7 @@
 <body>
     <?php 
     include('./client/header.php');
-
+    require_once "./common/db.php";
 
     if(isset($_GET['signUp'])){
         include('./client/signUp.php');
